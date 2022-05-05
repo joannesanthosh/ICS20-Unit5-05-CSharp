@@ -24,14 +24,13 @@ class Program
         sideCOfTriangle = (Convert.ToInt32(Console.ReadLine()));
         Console.WriteLine("");
 
-       if (sideAOfTriangle == sideBOfTriagle && sideBOfTriagle == sideCOfTriangle) {
-        Console.WriteLine("The triangle is equilateral");
-       } else if ((sideAOfTriangle == sideBOfTriagle) || (sideAOfTriangle == sideCOfTriangle) || (sideBOfTriagle == sideCOfTriangle)) { 
-        Console.WriteLine("The triangle is isosceles"); 
-       } else {
-        Console.WriteLine("The triangle is scalene"); 
-       }
- 
+        if (sideAOfTriangle==sideBOfTriagle && sideBOfTriagle==sideCOfTriangle) {
+        Console.WriteLine ("The triangle is equilateral");
+        } else if ((sideAOfTriangle == sideBOfTriagle) || (sideAOfTriangle == sideCOfTriangle) || (sideBOfTriagle == sideCOfTriangle)) { 
+        Console.WriteLine ("The triangle is isosceles"); 
+        } else  {
+        Console.WriteLine ("The triangle is scalene"); 
+        }
         Console.WriteLine("\nDone.");
     }
 }
