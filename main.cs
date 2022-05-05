@@ -23,8 +23,15 @@ class Program
         Console.WriteLine("Enter side c of the triangle.");
         sideCOfTriangle = (Convert.ToInt32(Console.ReadLine()));
         Console.WriteLine("");
-        Console.WriteLine("Area is: " + (lengthOfTriangle * widthOfTriangle * heightOfTriangle / 3) + " cm³ ");
 
-        Console.WriteLine("\nDone.");
+       if (sideAOfTriangle == sideBOfTriagle && sideBOfTriagle == sideCOfTriangle) {
+        Console.WriteLine("The triangle is equilateral");
+       } else if ((sideAOfTriangle == sideBOfTriagle) || (sideAOfTriangle == sideCOfTriangle) || (sideBOfTriagle == sideCOfTriangle)) { 
+        Console.WriteLine("The triangle is isosceles"); 
+       } else {
+        Console.WriteLine("The triangle is scalene"); 
+         }
+        
+         Console.WriteLine("\nDone.");
     }
 }
