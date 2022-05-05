@@ -7,7 +7,7 @@ using System;
 
 class Program
 {
-     public static void Main(string[] args)
+      public static void Main(string[] args)
     {
         // This program identifies the type of triangle
         int sideAOfTriangle;
