@@ -31,7 +31,7 @@ class Program
        } else {
         Console.WriteLine("The triangle is scalene"); 
        }
-        
-         Console.WriteLine("\nDone.");
+ 
+        Console.WriteLine("\nDone.");
     }
 }
