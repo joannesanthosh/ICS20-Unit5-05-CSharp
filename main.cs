@@ -13,8 +13,7 @@ class Program
         int sideAOfTriangle;
         int sideBOfTriagle;
         int sideCOfTriangle;
-        
-        // input
+        // input 
         Console.WriteLine("This program identifies the type of triangle");
         Console.WriteLine("");
         Console.WriteLine("Enter side a of the triangle.");
