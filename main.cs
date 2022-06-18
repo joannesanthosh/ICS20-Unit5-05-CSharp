@@ -31,6 +31,6 @@ class Program
             Console.WriteLine("The triangle is isosceles");
         else
             Console.WriteLine("The triangle is scalene");
-            Console.WriteLine("\nDone.");
+        Console.WriteLine("\nDone.");
     }
 }
