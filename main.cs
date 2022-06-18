@@ -25,13 +25,12 @@ class Program
         Console.WriteLine("");
 
         // process
-        if (sideAOfTriangle == sideBOfTriagle && sideBOfTriagle == sideCOfTriangle)  {
+        if (sideAOfTriangle == sideBOfTriagle && sideBOfTriagle == sideCOfTriangle)
             Console.WriteLine("The triangle is equilateral");
-        } else if ((sideAOfTriangle == sideBOfTriagle) || (sideAOfTriangle == sideCOfTriangle) || (sideBOfTriagle == sideCOfTriangle)) {
-         Console.WriteLine("The triangle is isosceles");
-        } else  {
-         Console.WriteLine("The triangle is scalene");
-        }
-        Console.WriteLine("\nDone.");
+        else if ((sideAOfTriangle == sideBOfTriagle) || (sideAOfTriangle == sideCOfTriangle) || (sideBOfTriagle == sideCOfTriangle))
+            Console.WriteLine("The triangle is isosceles");
+        else
+            Console.WriteLine("The triangle is scalene");
+         Console.WriteLine("\nDone.");
     }
 }
